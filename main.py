@@ -6,15 +6,15 @@ JOBS = [
   {
     'id': 1,
     'title': 'Data Analyst',
-    'location': ' Bengaluru, India',
+    'location': ' Brasil, São Paulo/São Sebastião',
     'salary': 'R$ 1.500,00'
   },
 
   {
     'id': 2,
-    'title': 'Data Scientist',
-    'location': ' Delhi, India',
-    'salary': 'R$ 1.800,00'
+    'title': 'Developer',
+    'location': ' Brasil, São Paulo/São Sebastião',
+    'salary': 'R$ 1.500,00'
     
   },
 
@@ -22,12 +22,19 @@ JOBS = [
     'id': 3,
     'title': 'Front Enginieer',
     'location': 'Remote',
-    'salary': 'R$ 2.500,00'
+    'salary': 'R$ 1.500,00'
     
   }, 
 
   {
-    'id': 4,
+   'id': 4,
+    'title': 'System Analyst',
+    'location': ' Remote',
+    
+  },
+
+   {
+    'id': 5,
     'title': 'Backend Engineer',
     'location': ' Remote',
     
