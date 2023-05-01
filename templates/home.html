@@ -1,107 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang ="en-US">
   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     
     <title> EGFiuza</title>
 
-      <style>
-
-        #banner {
-
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+      
+    <style>
+        #banner{
           height: 360px;
           width: 100%;
           object-fit: cover;
-          
-        }
+          }
         
-      </style>
+    </style>
 
     
   </head>
 
+  
   <body>
 
-    <div class="container">
-      
-    
+    {%include 'nav.html'%}
 
-    <h1 class="text-center mt-4">{{company_name}} Careers</h1>
-      <img id="banner" src="https://egfiuza-careers.egfiuza.repl.co/static/banner.jpg" height="320">
+    <div class="container">
+         <h1 class="text-center mt-4">{{company_name}} Careers</h1>
+         <img id="banner" src="https://egfiuza-careers.egfiuza.repl.co/static/banner.jpg" height="300">
+    </div>
+   
 
     <h2> About EGFiuza</h2>
 
-
+    <div class="row" style="margin-bottom:16px">
+      <div class="col-6 -md-6">
+   
     <p class="lead">Programmer, Técnica de informática; montagem, verificação de 
-compatibilidade solftware e hardwares. Formatação, reinstalação de sistemas operacionais. Configuração, atualização de BIOS, instalação de softwares, apps, drives. Correção de Bug´s.<br>
+compatibilidade solftware e hardwares. Formatação, reinstalação de sistemas operacionais. Configuração, atualização de BIOS, instalação de softwares, apps, drives. Correção de Bug´s.
       
-- Consultoria<br>
-- Infraestrutura<br>
--Redes <br>
+- Consultoria
+- Infraestrutura
+-Redes 
            
 Certificações: Impacta Certificação ICS - Impacta Certified Specialist -
-Hardware and Cabling Engineer<br>
+Hardware and Cabling Engineer
            
-- Cursos Presenciais<br>
-Eletroeletrônica - Básica (Senai);<br>
-Eletrônica Analógica (Senai);<br>
-Hardware Fundamentos (Impacta Tecnologia);<br>
-Hardware Service and Supporting (Impacta Tecnologia);<br>
-Hardware Manutenção em notebooks (Impacta Tecnologia); <br>
-Conceitos e Infra Estrutura de Redes (Impacta Tecnologia);<br>
-Cabling I - Cabeamento Estruturado (Impacta Tecnologia);<br>
-Cabling II - Projeto (Impacta Tecnologia);<br>
-Lógica de Programação (Teming Sistemas);<br>
-Edição de Vídeo - Studio 9 (Pinnacle Systems);<br>
-Conceitos de Rede (Hacker School);<br>
-Access 2000 - Modulo II< (Impacta Tecnologia);<br>
+- Cursos Presenciais
+Eletroeletrônica - Básica (Senai);
+Eletrônica Analógica (Senai);
+Hardware Fundamentos (Impacta Tecnologia);
+Hardware Service and Supporting (Impacta Tecnologia);
+Hardware Manutenção em notebooks (Impacta Tecnologia); 
+Conceitos e Infra Estrutura de Redes (Impacta Tecnologia);
+Cabling I - Cabeamento Estruturado (Impacta Tecnologia);
+Cabling II - Projeto (Impacta Tecnologia);
+Lógica de Programação (Teming Sistemas);
+Edição de Vídeo - Studio 9 (Pinnacle Systems);
+Conceitos de Rede (Hacker School);
+Access 2000 - Modulo II< (Impacta Tecnologia);
+  
+  - Programmer Courses On-linee
+    </p>
+      </div>
+      <div class="d -none d-md-block col-md-6">
+      <img src="/static/peopleWork.jpg" style="height:320px;border-radius:4px;"">
+      </div>
 
-- Programmer Courses On-linee<br>
-PHP;<br>
-JAVA;<br>
-JavaScript,<br>
-HTML;<br>
-CSS;<br>
-Android;<br>
-Python;<br>
-SQL;<br>
-C#;<br>
-C++;<br>
-Boostrap;<br>
-TypeScript;<br>
-Django;<br>
-Node.js;<br>
-React;<br>
-Git;<br>
-GitHub;<br>
-JQuery;<br>
-R;<br>
-Excel;<br>
-ASP;<br>
-Sass;<br>
-Canvas;<br>
-Replit;<br>
-ChatGPT;<br>
-Bash;<br>
-Flask;<br>
-BackEnd;<br>
-FrontEnd;<br>
+</div>
+
+    
+  
+      <h2> HTML and Css</h2>
+  <div class="p-3 m-0 border-0 bd-example bd-example-row">
+  <div style="font-size:15px">
+  <div class="row justify-content-start">
+  <div class="col-2">HTML</div>
+  <div class="col-2">CSS</div>
+  <div class="col-2">Sass</div>
+  <div class="col-2">Boostrap</div>
+  <div class="col-2">Canvas</div>
+  <div class="col-2">FrontEnd</div>
+  
+    
+      <div class="container text-center">
+      <h2> Server Side</h2>
+  <div class="container text-center">
+  <div class="row justify-content-center">
+  <div class="col-2">PHPL</div>
+  <div class="col-2">Node.js</div>
+  <div class="col-2">SQL</div>
+  <div class="col-2">Git</div>
+  <div class="col-2">ASP</div>
+  
+
+      <div class="container text-end">
+      <h2> JavaScript</h2>
+  <div class="container text-end">
+  <div class="row justify-content-center">
+  <div class="col-2">JQuery</div>
+  <div class="col-2">TypeScript</div>
+  <div class="col-2">React</div>
+  <div class="col-2">BackEnd</div>
+  <div class="col-2">JavaScript</div>
+    
+
+      <div class="container text-center">
+      <h2> Programming</h2>
+  <div class="row justify-content-center">
+  <div class="col-2">JAVAL</div>
+  <div class="col-2">Android</div>
+  <div class="col-2">Python</div>
+  <div class="col-2">C#</div>
+  <div class="col-2">C++</div>
+  <div class="col-2">GitHub</div>
+  <div class="col-2">Django</div>
+  <div class="col-2">R</div>
+  <div class="col-2">Replit</div>
+    
+
+
+<p>
+PHP;
+JAVA;
+JavaScript;
+HTML;
+CSS;
+Android;
+Python;
+SQL;
+C#;
+C++;
+Boostrap;
+TypeScript;
+Django;
+Node.js;
+React;
+Git;
+GitHub;
+JQuery;
+R;
+ASP;
+Sass;
+Canvas;
+Replit;
+BackEnd;
+FrontEnd;
+</p>
 
 FATEC – Faculdade de Tecnologia de São Sebastião
-Curso Superior de Tecnologia em Gestão da Tecnologia da Informação (Graduando) <br>
+Curso Superior de Tecnologia em Gestão da Tecnologia da Informação (Graduando) 
 
 - Perfil
 Como profissional da área de tecnologia; desenvolver metodos e manter funcionando um servidor e; ou sistema, quer seja empresa ou residência para mim, é um grande satisfação e uma fonte inesgotável de estudo e pesquisas.
-Portanto; sou dedicada e a disposição para novos aprendizados.<br>
+Portanto; sou dedicada e a disposição para novos aprendizados.
 
 - Características 
-Habilidades Gerenciais, Acompanhamento de Resultados, Capacidade de Gestão Operacional, Autodidática, Persistência.</p><br>
+Habilidades Gerenciais, Acompanhamento de Resultados, Capacidade de Gestão Operacional, Autodidática, Persistência.
 
-    </p>
+    
         <h2> Open Posistions</h2>
 
         <div> 
@@ -116,11 +178,16 @@ Habilidades Gerenciais, Acompanhamento de Resultados, Capacidade de Gestão Oper
 
         <p class="mt-4"> Copyright 2023, EGF</p>
       
-         <p align="right">
-     A vida tornou-se uma coleção de senhas<br>
-           ByFlaviaRecanzone
-  </p>
 
-      </body>
+
+      {% include 'footer.html'%}
+
+  
+      <p align="right">
+     A vida tornou-se uma coleção de senhas <br>
+               ByFlaviaRecanzone
+      </p>
+    
+  </body>
 
 </html>

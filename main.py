@@ -43,7 +43,7 @@ JOBS = [
 ]
 
 @app.route("/")
-def hello_jovian():
+def hello_egfiuza():
   return render_template('home.html',
                         jobs=JOBS,
                         company_name='EGFiuza')
